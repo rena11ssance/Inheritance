@@ -31,6 +31,11 @@ namespace Task_1
             {
                 Console.WriteLine($"Ошибка: {ex.Message}");
             }
+
+            catch (FormatException ex)
+            {
+                Console.WriteLine($"Ошибка: {ex.Message}");
+            }
         }
     }
 }
